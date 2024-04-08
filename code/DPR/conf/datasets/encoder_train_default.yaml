@@ -1,0 +1,9 @@
+# @package _group_
+
+my_train:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: 
+
+my_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: 

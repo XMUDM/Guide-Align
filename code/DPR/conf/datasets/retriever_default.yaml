@@ -1,0 +1,8 @@
+# @package _group_
+my_test:
+  _target_: dpr.data.retriever_data.JsonlQASrc
+  file: 
+
+my_dev:
+  _target_: dpr.data.retriever_data.JsonlQASrc
+  file: 

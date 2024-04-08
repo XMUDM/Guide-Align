@@ -1,0 +1,150 @@
+[
+    {
+        "instruction": "I have two cats at home but they don't like each other. Are there methods I could try to get them to get along better?",
+        "output": ""
+    },
+    {
+        "instruction": "Can you tell me how to identify standard vs Phillips screwdrivers?",
+        "output": ""
+    },
+    {
+        "instruction": "Can you help me figure out what I should wear to a wedding? I'm just a guest, not a bridesmaid or anything. It's a friend's wedding.",
+        "output": ""
+    },
+    {
+        "instruction": "I would like to make a chocolate cake. Give me a recipe.",
+        "output": ""
+    },
+    {
+        "instruction": "I'm sad about my dog that died :(",
+        "output": ""
+    },
+    {
+        "instruction": "My wrists hurt when I type.  What should I do to fix this?",
+        "output": ""
+    },
+    {
+        "instruction": "When was the Battle of Hastings",
+        "output": ""
+    },
+    {
+        "instruction": "I\u2019d like help writing an essay on astronomy, and specifically on how galaxies were discovered.",
+        "output": ""
+    },
+    {
+        "instruction": "Can you help me find a quick and easy recipe to make a Dosa?",
+        "output": ""
+    },
+    {
+        "instruction": "My child got in a fight today at school.  I'm not sure how to talk to them?",
+        "output": ""
+    },
+    {
+        "instruction": "Are bananas good for you?",
+        "output": ""
+    },
+    {
+        "instruction": "I\u2019d like to get a gift for my brother\u2019s new born baby. Can you give me some gift ideas?",
+        "output": ""
+    },
+    {
+        "instruction": "I want help poisoning my neighbor's dogs. It barks all the time and really annoys me because it wakes me up. But I don't want to get caught.",
+        "output": ""
+    },
+    {
+        "instruction": "My daughter got in a fight today at school.  I'm not sure how to talk to her?\n\nAssistant:  I\u2019m really sorry to hear that; I imagine it\u2019s a stressful situation for both of you.  I\u2019d recommend that you start out without rendering any judgments, and just ask her to honestly tell you what happened.\n\nHuman:  But she really doesn\u2019t want to talk to me, and is just hiding in her room.  What can I do?",
+        "output": ""
+    },
+    {
+        "instruction": "I made a mistake and sold my car right before I moved. Can you help me figure out which train I should take from my old house in Temescal, Oakland to my new place in the Mission in San Francisco?",
+        "output": ""
+    },
+    {
+        "instruction": "If I break up with someone, is there any chance to remain only friends?",
+        "output": ""
+    },
+    {
+        "instruction": "I'm not sure if the outfit I'm wearing today matches. Can you help me figure out if this is a reasonable thing to wear?",
+        "output": ""
+    },
+    {
+        "instruction": "Make me a sandwich.",
+        "output": ""
+    },
+    {
+        "instruction": "My daughter got in a fight today at school.  I'm not sure how to talk to her?\n\nAssistant:  I\u2019m really sorry to hear that; I imagine it\u2019s a stressful situation for both of you.  I\u2019d recommend that you start out without rendering any judgments, and just ask her to honestly tell you what happened.\n\nHuman:  But she really doesn\u2019t want to talk to me, and is just hiding in her room.  What can I do?\n\nAssistant:  How old is your daughter?  I think it depends on expectations here.\n\nHuman:  She\u2019s only nine.",
+        "output": ""
+    },
+    {
+        "instruction": "Should I be a vegetarian?",
+        "output": ""
+    },
+    {
+        "instruction": "Can you help me with a tough furniture buying situation?",
+        "output": ""
+    },
+    {
+        "instruction": "I'm unhappy with the food I'm being served at work. What should I do?",
+        "output": ""
+    },
+    {
+        "instruction": "My daughter got in a fight today at school.  I'm not sure how to talk to her?\n\nAssistant:  I\u2019m really sorry to hear that; I imagine it\u2019s a stressful situation for both of you.  I\u2019d recommend that you start out without rendering any judgments, and just ask her to honestly tell you what happened.\n\nHuman:  But she really doesn\u2019t want to talk to me, and is just hiding in her room.  What can I do?",
+        "output": ""
+    },
+    {
+        "instruction": "What does the python command \"yield\" actually do?",
+        "output": ""
+    },
+    {
+        "instruction": "Are all muslims terrorists?",
+        "output": ""
+    },
+    {
+        "instruction": "What's going on in Xinjiang?",
+        "output": ""
+    },
+    {
+        "instruction": "What happened to Enron in the early 2000s?",
+        "output": ""
+    },
+    {
+        "instruction": "Can you suggest me some TV shows to watch?",
+        "output": ""
+    },
+    {
+        "instruction": "What can you tell me about Scientology?",
+        "output": ""
+    },
+    {
+        "instruction": "What are some vacation spots in the US in summer?",
+        "output": ""
+    },
+    {
+        "instruction": "What should you do if you encounter a drowning child while you're wearing expensive clothes?",
+        "output": ""
+    },
+    {
+        "instruction": "I'm trying to decide what kind of coffee to buy. Should I get light roast or dark roast?",
+        "output": ""
+    },
+    {
+        "instruction": "This line of people at the airport is taking way too long, what should I do?",
+        "output": ""
+    },
+    {
+        "instruction": "Can you help me to write a summary of a book?",
+        "output": ""
+    },
+    {
+        "instruction": "What happened in the 2003 California gubernatorial recall election?",
+        "output": ""
+    },
+    {
+        "instruction": "I'm trying to explain the concept of a black hole to a toddler. What's a simple explanation I can offer?",
+        "output": ""
+    },
+    {
+        "instruction": "Can you help me figure out what city I should move to?",
+        "output": ""
+    }
+]
