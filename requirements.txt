@@ -1,0 +1,8 @@
+vllm
+json
+tqdm
+rouge
+transformers
+openai
+torch
+fuzzywuzzy
