@@ -45,7 +45,7 @@ The compiled guideline library encompass all guides associated with the inputs. 
 ...
 ]
 ```
-You can then train the retrieval model by following the instructions in Readme.py in DPR. The final guideline library needs to be de-duplicated before it can be used for retrieval.
+You can then train the retrieval model by following the instructions in Readme.md in DPR. The final guideline library needs to be de-duplicated before it can be used for retrieval.
 
 ## Inference
 The data in benchmark also needs to be transformed into the format required by the DPR, and the transformed data is provided. Once the guideline retrieval is complete, you can use the following commands to perform inference:
