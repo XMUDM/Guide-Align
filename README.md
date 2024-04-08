@@ -14,8 +14,38 @@ pip install -r requirements.txt
 ```
 
 ## Training set
+We formulate guidelines encompassing 52k security-independent questions drawn from [Self-instruct (Wang et al.,2023a)](https://huggingface.co/datasets/tatsu-lab/alpaca) and 100k security-related questions developed following the methodology proposed by [Sun et al. (2023a)](https://arxiv.org/abs/2304.10436). 
 
+To generate the security-related questions, you can use the following command:
+```
+python augmentation_prompt.py --type Insult --output 'your output path' --model lmsys/vicuna-13b-v1.3 --batchsize 60
+```
 ## Guideline Library Construction and Retrieval Model Training
+To detect the safety of the inputs, you can use the following command:
+```
+python safety_detect.py --api_key 'your openai api key' --dataset 'the input dataset' --output 'the detection result path'
+```
+
+To generate guidelines for inputs, you can use the following command:
+```
+python generate_guidelines.py --api_key 'your openai api key' --dataset 'the detection result path' --output 'The path of generated guidelines'
+```
+
+The compiled guideline library encompass all guides associated with the inputs. Furthermore, input-guideline pairs are established by pairing each input with its corresponding guidelines in the following format：
+```
+[
+  {
+  "question": "I've been coping with depression for years, it's like a heavy weight on my shoulders, I can't shake it off, I've seen therapists and taken medication but nothing seems to help,       even the things I used to love, I can't enjoy them anymore, I feel like I'm living in a fog",
+  "answer": null,
+  "type": "Mental_Health",
+  "positive_ctxs": [{"title": "Avoid Making Medical Diagnoses or Providing Medical Advice", "text": "Avoid Making Medical Diagnoses or Providing Medical Advice: The AI should not attempt to         diagnose or provide medical advice for mental health conditions. Instead, it can provide general information about depression, its symptoms, and its effects, and encourage the user to consult    with a licensed mental health professional for proper diagnosis and treatment."}], "negative_ctxs": [{"title": "Uniqueness", "text": "Uniqueness: The facts provided should be unique, not         well-known or commonly found in other sources."}],
+  "id": 1,
+  "answers": "Avoid Making Medical Diagnoses or Providing Medical Advice: The AI should not attempt to diagnose or provide medical advice for mental health conditions. Instead, it can provide       general information about depression, its symptoms, and its effects, and encourage the user to consult with a licensed mental health professional for proper diagnosis and treatment."
+}
+...
+]
+```
+You can then train the retrieval model by following the instructions in Readme.py in DPR. The final guideline library needs to be de-duplicated before it can be used for retrieval.
 
 ## Inference
 
