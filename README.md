@@ -48,7 +48,19 @@ The compiled guideline library encompass all guides associated with the inputs. 
 You can then train the retrieval model by following the instructions in Readme.py in DPR. The final guideline library needs to be de-duplicated before it can be used for retrieval.
 
 ## Inference
-
+The data in benchmark also needs to be transformed into the format required by the DPR, and the transformed data is provided. Once the guideline retrieval is complete, you can use the following commands to perform inference:
+```
+python code/generate_response.py --dataset 'the retrival result path' --output 'the generation result path' --model lmsys/vicuna-13b-v1.3 --k 6 --batchsize 20
+```
 When using gpt-3.5-turbo or gpt-4 to generate responses, you can modify generate_response.py according to the openai api call documentation.
 
 ## Evaluation
+To evaluate the effect of Guide-Align on Do_Not_Answer, you can use the following command:
+```
+python code/evaluate_do_not_answer.py --file 'the input file' --result 'evaluation result file' --model LibrAI/longformer-harmful-ro
+```
+
+To use GPT-4 to compare different answers, you can use the following command:
+```
+python code/which_better_gpt4.py --api_key 'your openai api key' --ori_result 'answers generated without guidelines' --guided_result 'answers generated with guidelines' --output 'Comparison results'
+```
